@@ -1,4 +1,4 @@
-# 📸 ImagesBazaar - Stock Photo Marketplace
+<img width="1920" height="3421" alt="screencapture-localhost-3000-profile-2025-11-05-17_54_54" src="https://github.com/user-attachments/assets/ae56b5a6-ca4a-488f-9d24-888908208cc4" /># 📸 ImagesBazaar - Stock Photo Marketplace
 
 > A professional full-stack image marketplace platform where photographers can sell and buyers can purchase high-quality stock photos with integrated payment processing.
 
@@ -695,3 +695,19 @@ All rights reserved © 2025 ImagesBazaar
 ---
 
 **Built with ❤️ for photographers and image buyers worldwide**
+
+
+# Screenshots 
+<img width="1920" height="2901" alt="screencapture-localhost-3000-2025-11-05-17_53_50" src="https://github.com/user-attachments/assets/b9531452-3ee6-40f2-af60-8d198fd0ee8e" />
+![Uploading screencapture-localhost-3000-upload-2025-11-05-17_54_03.png…]()
+![Uploading screencapture-localhost-3000-wishlist-2025-11-05-17_54_14.png…]()
+![Uploading screencapture-localhost-3000-my-purchases-2025-11-05-17_54_24.png…]()
+![Uploading screencapture-localhost-3000-image-690b218494128287d46c10aa-2025-11-05-17_54_43.png…]()
+![Uploading screencapture-localhost-3000-profile-2025-11-05-17_54_54.png…]()
+
+
+
+
+
+
+
