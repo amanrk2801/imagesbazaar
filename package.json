@@ -1,0 +1,14 @@
+{
+  "name": "imagesbazaar",
+  "version": "1.0.0",
+  "description": "Image marketplace platform",
+  "main": "server/index.js",
+  "scripts": {
+    "server": "node server/index.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": ["images", "marketplace", "stock-photos"],
+  "author": "",
+  "license": "ISC"
+}

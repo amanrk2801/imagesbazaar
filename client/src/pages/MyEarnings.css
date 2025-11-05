@@ -1,0 +1,308 @@
+.my-earnings {
+  padding: 40px 0;
+  min-height: calc(100vh - 60px);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.my-earnings .container {
+  max-width: 1200px;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.page-header h1 {
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 12px;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.page-header p {
+  font-size: 18px;
+  opacity: 0.95;
+}
+
+.earnings-summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.stat-card {
+  background: white;
+  padding: 32px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.stat-card-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.stat-card h3 {
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.stat-card-value {
+  font-size: 40px;
+  font-weight: 800;
+  background: linear-gradient(135deg, #6366f1, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 8px;
+}
+
+.stat-card-label {
+  font-size: 14px;
+  color: #9ca3af;
+}
+
+.payout-info {
+  background: white;
+  padding: 24px;
+  border-radius: 16px;
+  margin-bottom: 32px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.payout-info h3 {
+  font-size: 18px;
+  color: #1f2937;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+.payout-info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.payout-info-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  background: #f9fafb;
+  border-radius: 10px;
+}
+
+.payout-info-item span:first-child {
+  font-size: 24px;
+}
+
+.payout-info-text {
+  flex: 1;
+}
+
+.payout-info-text strong {
+  display: block;
+  color: #1f2937;
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+.payout-info-text small {
+  color: #6b7280;
+  font-size: 12px;
+}
+
+.payout-cta {
+  background: white;
+  border-radius: 16px;
+  padding: 32px;
+  margin-bottom: 32px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.payout-cta-content {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.payout-cta-icon {
+  font-size: 64px;
+  flex-shrink: 0;
+}
+
+.payout-cta-text {
+  flex: 1;
+}
+
+.payout-cta-text h3 {
+  font-size: 24px;
+  color: #1f2937;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.payout-cta-text p {
+  font-size: 16px;
+  color: #6b7280;
+}
+
+.btn-request-payout-large {
+  background: linear-gradient(135deg, #10b981, #059669);
+  color: white;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4);
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.btn-request-payout-large:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.5);
+}
+
+.btn-request-payout-large:disabled {
+  background: linear-gradient(135deg, #9ca3af, #6b7280);
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.section-header h2 {
+  font-size: 28px;
+  color: white;
+  font-weight: 700;
+}
+
+.earnings-table {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.earnings-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.earnings-table th {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: white;
+  padding: 18px;
+  text-align: left;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.earnings-table td {
+  padding: 18px;
+  border-bottom: 1px solid #e5e7eb;
+  color: #374151;
+  font-size: 15px;
+}
+
+.earnings-table tr:last-child td {
+  border-bottom: none;
+}
+
+.earnings-table tr:hover {
+  background: #f9fafb;
+}
+
+.earning-amount {
+  color: #10b981;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.sale-price {
+  color: #6b7280;
+  font-weight: 600;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 80px 20px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.empty-state-icon {
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+
+.empty-state h3 {
+  font-size: 24px;
+  color: #1f2937;
+  margin-bottom: 12px;
+}
+
+.empty-state p {
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 768px) {
+  .page-header h1 {
+    font-size: 32px;
+  }
+
+  .earnings-summary {
+    grid-template-columns: 1fr;
+  }
+
+  .stat-card-value {
+    font-size: 32px;
+  }
+
+  .section-header {
+    flex-direction: column;
+    gap: 16px;
+    align-items: stretch;
+  }
+
+  .btn-request-payout {
+    width: 100%;
+  }
+
+  .earnings-table {
+    overflow-x: auto;
+  }
+  
+  .earnings-table table {
+    min-width: 600px;
+  }
+
+  .payout-info-grid {
+    grid-template-columns: 1fr;
+  }
+}

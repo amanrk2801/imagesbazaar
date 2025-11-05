@@ -1,0 +1,224 @@
+.checkout-container {
+  min-height: calc(100vh - 60px);
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f5f5;
+}
+
+.checkout-box {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  max-width: 600px;
+  width: 100%;
+}
+
+.checkout-box h2 {
+  margin-bottom: 30px;
+  text-align: center;
+  color: #333;
+  font-size: 28px;
+}
+
+.error-message {
+  background: #fee;
+  border: 1px solid #fcc;
+  color: #c33;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.purchase-summary {
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #eee;
+}
+
+.image-preview {
+  width: 100%;
+  max-height: 300px;
+  overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.purchase-summary img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.purchase-summary h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.purchase-summary .contributor {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.price-details {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #555;
+}
+
+.price-row.total {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+}
+
+.price-row hr {
+  margin: 15px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.purchase-summary .price {
+  font-size: 32px;
+  font-weight: bold;
+  color: #28a745;
+  margin: 15px 0;
+}
+
+.payment-info {
+  background: #e7f3ff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+}
+
+.payment-info h4 {
+  margin-bottom: 15px;
+  color: #0066cc;
+  font-size: 16px;
+}
+
+.payment-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.payment-info li {
+  padding: 8px 0;
+  color: #333;
+  font-size: 14px;
+}
+
+.btn-pay {
+  font-size: 18px;
+  padding: 15px;
+  font-weight: 600;
+  position: relative;
+}
+
+.btn-pay .spinner {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #fff;
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: spin 0.6s linear infinite;
+  margin-right: 10px;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.payment-methods {
+  text-align: center;
+  margin: 25px 0;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.payment-methods p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.methods {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.methods span {
+  background: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 13px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.payment-note {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.payment-note small {
+  display: block;
+  font-size: 12px;
+  color: #999;
+  margin-top: 5px;
+}
+
+.loading-spinner {
+  text-align: center;
+  padding: 40px;
+  font-size: 18px;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .checkout-box {
+    padding: 25px;
+  }
+
+  .checkout-box h2 {
+    font-size: 24px;
+  }
+
+  .purchase-summary h3 {
+    font-size: 20px;
+  }
+
+  .methods {
+    gap: 10px;
+  }
+
+  .methods span {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+}
