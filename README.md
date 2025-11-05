@@ -695,5 +695,3 @@ All rights reserved © 2025 ImagesBazaar
 ---
 
 **Built with ❤️ for photographers and image buyers worldwide**
-#   i m a g e s b a z a a r  
- 
